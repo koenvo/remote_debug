@@ -3,8 +3,7 @@ CC=gcc
 
 all: ./remote_debug.so
 	@echo compiling done
-#	gcc -shared -fpic mp4split.c -I/usr/include/python2.6/ -o mp4split.so
-#
+
 clean:
 	find . -name \*.lo -o -name \*.o | xargs rm -f
 	find . -name \*.la -o -name \*.a | xargs rm -f 
